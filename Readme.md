@@ -4,6 +4,9 @@
 
 Можно собрать самому, или взять последнюю сборку
 
+
+![alt text](https://github.com/ksooad/botis-button/blob/master/img/popup.png "Пример работы")
+
 Как это работает:
 https://raw.githubusercontent.com/ksooad/botis-button/master/gifs/how-It-works.gif
 
