@@ -5,4 +5,4 @@
 Можно собрать самому, или взять посленюю сборку
 
 
-![alt text](https://github.com/ksooad/botis-button/gifs/how-It-works.gif "Как это работает")
+![alt text](https://github.com/ksooad/botis-button/blob/master/gifs/how-It-works.gif "Как это работает")
