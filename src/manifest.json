@@ -1,0 +1,26 @@
+{
+  "name": "Борис Кнопка",
+  "version": "1.0",
+  "description": "Избавляет от необходимости выбирать нужный тебе сервер из длинного списка доступных серверов во время деплоя проектов",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://j.skyeng.tech/*"],
+      "js": ["scripts/contentScript.js"],
+      "css": ["css/contentScript.css"]
+    }
+  ],
+  "options_page": "pages/options.html",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "manifest_version": 2
+}
