@@ -5,7 +5,7 @@
 Можно собрать самому, или взять последнюю сборку
 
 Как это работает:
-https://github.com/ksooad/botis-button/blob/master/gifs/how-It-works.gif
+https://raw.githubusercontent.com/ksooad/botis-button/master/gifs/how-It-works.gif
 
 Как собрать самому:
-https://github.com/ksooad/botis-button/blob/master/gifs/how-to-build.gif
+https://raw.githubusercontent.com/ksooad/botis-button/master/gifs/how-to-build.gif
