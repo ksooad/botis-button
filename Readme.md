@@ -2,7 +2,7 @@
 Расширение для Google Chrome
 Для выбора сервера для деплоя
 
-Можно собрать самому, или взять посленюю сборку
+Можно собрать самому, или взять последнюю сборку
 
-
-![alt text](https://github.com/ksooad/botis-button/blob/master/gifs/how-It-works.gif "Как это работает")
+Как это работает:
+https://github.com/ksooad/botis-button/blob/master/gifs/how-It-works.gif
