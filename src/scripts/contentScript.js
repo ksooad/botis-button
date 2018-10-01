@@ -20,7 +20,7 @@ function getPopoverElement() {
 }
 
 function isSelectHostSelectExist() {
-  return document.querySelectorAll('[name=Host] > option').length > 0;
+  return document.querySelectorAll('[name=Hostname]').length > 0;
 }
 
 function isNeedCreateButtons() {
@@ -69,17 +69,9 @@ function createAllButtons() {
 }
 
 function selectServer(serverName) {
-  let selectElement = document.querySelector('[name=Host]');
-  let options = document.querySelectorAll('[name=Host] > option');
-  for (let i = 0 ; i <options.length ;i++) {
-    let option = options[i];
-    if (option.innerHTML === serverName) {
-      option.selected = 'selected';
-      selectElement.style.backgroundColor = "#d2e8d2";
-      return;
-    }
-  }
-  selectElement.style.backgroundColor = "#FABE58";
+  let selectElement = document.querySelector('[name=Hostname]');
+  selectElement.value = serverName;
+  selectElement.style.backgroundColor = "#d2e8d2";
 }
 
 function createButton(serverName) {
